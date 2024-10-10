@@ -53,7 +53,7 @@ body {
     color: #333;
 }
 
-.form-group input {
+.form-group input,#gender {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
