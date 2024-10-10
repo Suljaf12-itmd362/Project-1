@@ -53,7 +53,9 @@ body {
     color: #333;
 }
 
-.form-group input,#gender {
+.form-group input,
+select,
+#gender {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -84,17 +86,61 @@ footer {
     color: #777;
 }
 
-.name-group{
+.name-group {
     display: flex;
     flex-direction: columns;
     justify-content: space-around;
 }
 
-.phone-group{
+.phone-group {
     display: flex;
     flex-direction: columns;
 }
+
 .phone-group #phone-code,
-.phone-group #phone-number{
+.phone-group #phone-number {
     margin: 0 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .header h1 {
+        font-size: 2.2rem;
+    }
+
+    .name-group {
+        display: block;
+    }
+
+    .phone-group {
+        display: block;
+    }
+
+    .phone-group #phone-code,
+    .phone-group #phone-number {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .signup-form {
+        padding: 30px;
+    }
+
+    .btn-submit {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .signup-form {
+        max-width: 500px;
+    }
+
+    .btn-submit {
+        font-size: 1.2rem;
+    }
 }
