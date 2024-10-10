@@ -88,13 +88,13 @@ footer {
 
 .name-group {
     display: flex;
-    flex-direction: columns;
+    flex-direction: row;
     justify-content: space-around;
 }
 
 .phone-group {
     display: flex;
-    flex-direction: columns;
+    flex-direction: row;
 }
 
 .phone-group #phone-code,
