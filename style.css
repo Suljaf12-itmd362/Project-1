@@ -83,3 +83,12 @@ footer {
     font-size: 0.875rem;
     color: #777;
 }
+
+.phone-group{
+    display: flex;
+    flex-direction: columns;
+}
+.phone-group #phone-code,
+.phone-group #phone-number{
+    margin: 0 10px;
+}
