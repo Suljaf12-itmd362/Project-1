@@ -1,5 +1,4 @@
 /* Project 1 Styling here */
-
 /* Basic Reset */
 * {
   margin: 0;
@@ -7,31 +6,26 @@
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
-
 body {
   background-color: #f5f5f5;
   color: #333;
   line-height: 1.6;
   padding: 20px;
 }
-
 /* Header Styling */
 .header {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .header h1 {
   font-size: 1.8rem;
   color: #333;
   margin-bottom: 0.5rem;
 }
-
 .header p {
   font-size: 1rem;
   color: #555;
 }
-
 /* Form Styling */
 .signup-form {
   background: #ffffff;
@@ -41,18 +35,15 @@ body {
   max-width: 400px;
   margin: 0 auto;
 }
-
 .form-group {
   margin-bottom: 15px;
 }
-
 .form-group label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
   color: #333;
 }
-
 .form-group input,
 select,
 #gender {
@@ -62,7 +53,6 @@ select,
   border-radius: 5px;
   font-size: 1rem;
 }
-
 .btn-submit {
   background-color: #007BFF;
   color: #fff;
@@ -73,11 +63,9 @@ select,
   font-size: 1rem;
   width: 100%;
 }
-
 .btn-submit:hover {
   background-color: #0056b3;
 }
-
 /* Footer Styling */
 footer {
   text-align: center;
@@ -85,61 +73,49 @@ footer {
   font-size: 0.875rem;
   color: #777;
 }
-
 .name-group {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
 .phone-group {
   display: flex;
   flex-direction: row;
 }
-
 .phone-group #phone-code,
 .phone-group #phone-number {
   margin: 0 10px;
 }
-
 /* Media Queries */
 @media only screen and (min-width: 600px) {
   .header h1 {
     font-size: 2.2rem;
   }
-
   .name-group {
     display: block;
   }
-
   .phone-group {
     display: block;
   }
-
   .phone-group #phone-code,
   .phone-group #phone-number {
     margin: 0;
     margin-bottom: 10px;
   }
-
   .signup-form {
     padding: 30px;
   }
-
   .btn-submit {
     font-size: 1.1rem;
   }
 }
-
 @media only screen and (min-width: 900px) {
   .header h1 {
     font-size: 2.5rem;
   }
-
   .signup-form {
     max-width: 500px;
   }
-
   .btn-submit {
     font-size: 1.2rem;
   }
