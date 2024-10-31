@@ -2,81 +2,83 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Project-1</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-1</title>
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" async></script>
 </head>
 
 <body>
-	<header class="header">
-		<h1>Join Our Beta Program</h1>
-		<p>Sign up to be the first to access exclusive features and updates!</p>
-	</header>
+  <header class="header">
+    <h1>Join Our Beta Program</h1>
+    <p>Sign up to be the first to access exclusive features and updates!</p>
+  </header>
 
-	<main>
-		<div class="signup-form">
-			<form action="#" method="POST" autocomplete="on">
-				<div class="form-group name-group">
-					<div id="first-name-group">
-						<label for="first-name">First Name</label>
-						<input type="text" id="first-name" name="first_name" required>
-					</div>
-					<div id="last-name-group">
-						<label for="last-name">Last Name</label>
-						<input type="text" id="last-name" name="last_name" required>
-					</div>
-				</div>
+  <main>
+    <div class="signup-form">
+      <form action="#" method="POST" autocomplete="on">
+        <div class="form-group name-group">
+          <div id="first-name-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first_name" required>
+          </div>
+          <div id="last-name-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name" required>
+          </div>
+        </div>
 
-				<div class="form-group">
-					<label for="dob">Date of Birth</label>
-					<input type="date" id="dob" name="dob" required>
-				</div>
+        <div class="form-group">
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
 
-				<div class="form-group">
-					<label for="gender">Gender</label>
-					<select id="gender" name="gender" required>
-						<option value="" disabled selected>Select your gender</option>
-						<option value="male">Male</option>
-						<option value="female">Female</option>
-					</select>
-				</div>
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
 
-				<div class="form-group">
-					<label for="email">Email Address</label>
-					<input type="email" id="email" name="email" required>
-				</div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
 
-				<div class="form-group">
-					<label for="phone-code">Telephone</label>
-					<div class="phone-group">
-						<select id="phone-code" name="phone_code" required>
-							<option value="" disabled selected> Country Code</option>
-							<option value="+1">+1 (USA)</option>
-							<option value="+44">+44 (UK)</option>
-							<option value="+91">+92 (Pakistan)</option>
-							<option value="+91">+91 (India)</option>
-							<option value="+61">+61 (Australia)</option>
-							<option value="+81">+81 (Japan)</option>
-						</select>
-						<input type="tel" id="phone-number" name="phone_number" placeholder="123-456-7890" required>
-					</div>
-				</div>
+        <div class="form-group">
+          <label for="phone-code">Telephone</label>
+          <div class="phone-group">
+            <select id="phone-code" name="phone_code" required>
+              <option value="" disabled selected> Country Code</option>
+              <option value="+1">+1 (USA)</option>
+              <option value="+44">+44 (UK)</option>
+              <option value="+91">+92 (Pakistan)</option>
+              <option value="+91">+91 (India)</option>
+              <option value="+61">+61 (Australia)</option>
+              <option value="+81">+81 (Japan)</option>
+            </select>
+            <input type="tel" id="phone-number" name="phone_number" placeholder="123-456-7890" required>
+          </div>
+        </div>
 
-				<div class="form-group">
-					<label for="password">Password</label>
-					<input type="password" id="password" name="password" required>
-				</div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
 
-				<button type="submit" class="btn-submit">Sign Up</button>
+        <button type="submit" class="btn-submit">Sign Up</button>
 
-			</form>
-		</div>
-	</main>
+      </form>
+    </div>
+  </main>
 
-	<footer>
-		<p>&copy; 2024 Beta Project. All rights reserved.</p>
-	</footer>
+  <footer>
+    <p>&copy; 2024 Beta Project. All rights reserved.</p>
+  </footer>
 </body>
 
 </html>
